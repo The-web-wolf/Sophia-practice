@@ -1,0 +1,7 @@
+/*
+  This simple contract add two numbers together
+*/
+contract Calculator = 
+  entrypoint add (a: int, b: int) = 
+    let sum: int = a + b
+    sum
