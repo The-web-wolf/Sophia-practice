@@ -1,0 +1,5 @@
+contract Hello = // Starts contract
+  entrypoint hello_world (name: string) = // Creates public-like function hello_world collecting name arg of type string
+  let msg = "Hello "
+  let hello = String.concat(msg: string, name:string): string
+  hello // Outputs hello {name}
